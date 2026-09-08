@@ -1,5 +1,0 @@
-Microsoft Foundry Local is designed to run AI models directly on a user's device. After the required models are downloaded, applications can perform local inference without sending prompts or document content to a cloud AI service.
-
-Foundry Local provides a model catalog and an SDK for working with local models. Applications can download a model, load it into memory, run inference, and unload it when finished.
-
-For a local RAG application, Foundry Local can provide both the embedding model used for semantic search and the chat model used to generate the final answer.
