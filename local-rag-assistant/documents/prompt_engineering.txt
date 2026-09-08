@@ -1,0 +1,5 @@
+Prompt engineering controls how the language model should use retrieved information. For document question answering, the system prompt should tell the model to answer only from the provided context.
+
+A useful grounding instruction is to avoid guessing when the documents do not contain enough information. In that case, the assistant should clearly say that the provided documents do not contain enough information to answer the question.
+
+Source names should come from the retrieval results rather than being invented by the language model. This keeps the displayed sources tied to the document chunks that were actually retrieved.

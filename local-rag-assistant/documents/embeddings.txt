@@ -1,0 +1,5 @@
+A text embedding is a numerical vector that represents the meaning of a piece of text. Texts with similar meanings tend to have vectors that are closer to each other in the embedding space.
+
+In a RAG system, document chunks are converted into embeddings before questions are asked. A user's question is embedded with the same embedding model, and its vector is compared with the stored document vectors.
+
+Cosine similarity is one simple way to compare two embeddings. For a small document collection, every stored vector can be read and compared in Python without using a dedicated vector database.

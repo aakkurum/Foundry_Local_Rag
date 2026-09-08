@@ -1,0 +1,5 @@
+Retrieval-Augmented Generation, usually called RAG, combines information retrieval with language-model generation. A RAG application first retrieves relevant information from a knowledge base, adds that information to the model prompt, and then asks the model to generate an answer.
+
+The three basic steps are retrieve, augment, and generate. Retrieval finds useful document chunks, augmentation places those chunks into the prompt as context, and generation produces an answer from that context.
+
+Grounding the model in retrieved documents can reduce hallucinations because the model is instructed to answer from the supplied context instead of relying only on its general training knowledge.

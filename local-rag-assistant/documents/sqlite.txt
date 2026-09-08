@@ -1,0 +1,5 @@
+SQLite is a lightweight, serverless database stored in a single local file. It does not require a separate database server, which makes it suitable for small local applications.
+
+In this project, SQLite stores each document chunk together with its source file name and embedding vector. The embedding can be serialized as JSON text so it can be written to and read from a normal SQLite table.
+
+During retrieval, the application reads the stored chunks and embeddings from SQLite, calculates similarity scores in Python, and selects the most relevant chunks for the prompt.
